@@ -81,7 +81,7 @@ function App() {
               <label>Password</label>
               <input
                 type="password"
-                name="pwd"
+                name="password"
                 value={formData.password || ''}
                 onChange={handleChange}
               />
